@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class EstacionDeAñoMejorado {
     public static void main(String[] args) {
         System.out.println(" *** Estacion del Año *** ");
-
         var consola = new Scanner(System.in);
-
         System.out.println(" Ingrese el numero del mes: ");
         var mes = Integer.parseInt(consola.nextLine());
 
