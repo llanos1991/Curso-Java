@@ -16,7 +16,7 @@ public class FormateoCadenas {
 
         // Formateo con text block
         mensaje = """
-                %n Detalle Persona:\s 
+                %n Detalle persona.Persona:\s 
                 --------------------------
                 \tNombre: %s
                 \tEdad: %d años
@@ -28,7 +28,7 @@ public class FormateoCadenas {
         //formateo con text block y printf directamente
 
         System.out.printf("""
-                %n Detalle Persona:\\s\s
+                %n Detalle persona.Persona:\\s\s
                                 --------------------------
                                 \\tNombre: %s
                                 \\tEdad: %d años
